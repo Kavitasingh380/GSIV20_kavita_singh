@@ -1,0 +1,40 @@
+@import 'base';
+@import '~bootstrap/scss/bootstrap.scss';
+@import './header';
+
+@import './movie';
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ .basicInfoStore{
+        position: absolute;
+    z-index: 9999;
+    border: 1px solid #ccc;
+    text-align: left;
+    background: #fff;
+    width: 60%;
+    height: 60%;
+    padding: 15px;
+    display: inline-block;
+    /* border-top: none!important; */
+    /* border-top-right-radius: 0!important; */
+    /* border-top-left-radius: 0!important; */
+    border-radius: 25px;
+    top: 108px;
+    left: 270px;
+    }

@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    height: 60px;
+    color: white;
+}
+.login{
+    cursor: pointer;
+    margin: 13px;
+}
+.signup{
+    margin: 13px;
+    cursor: pointer;
+}
+a{
+    color: white;
+}
+a:hover{
+    border-bottom: 0;
+    color: white;
+    text-decoration: none
+}
+
+.heading{
+    margin: 10px;
+}
