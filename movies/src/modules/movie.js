@@ -35,6 +35,7 @@ class Movie extends React.Component {
       this.setState({
         movieData: nextProps.movie.upcomingMovie.data.results,
         pageNo: nextProps.movie.upcomingMovie.data.page,
+
         maxPage: nextProps.movie.upcomingMovie.data.total_pages
       })
 
@@ -48,6 +49,7 @@ class Movie extends React.Component {
       })
     }
     if (nextProps.movie.movieDetail.isSuccess) {
+      console.log("aaaaaaaaaaaaaaaaa")
       this.setState({
         details: nextProps.movie.movieDetail.data
 

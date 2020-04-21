@@ -96,7 +96,7 @@ export default handleActions({
   [constants.MOVIE_DETAIL_REQUEST]: movieDetailRequest,
   [constants.MOVIE_DETAIL_SUCCESS]: movieDetailSuccess,
   [constants.MOVIE_DETAIL_ERROR]: movieDetailError,
-  [constants.MOVIE_DETAIL_SUCCESS]: movieDetailSuccess,
+  [constants.MOVIE_DETAIL_CLEAR]: movieDetailClear,
 
 
 

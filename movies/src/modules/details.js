@@ -4,7 +4,7 @@ import { bindActionCreators } from "redux";
 import * as actions from "../redux/actions";
 import Header from "../components/header/profileHeader";
 import { isUserAlreadyLoggedIn } from "../generic/index";
-import Home from "../assets/home-run.svg"
+import Back from "../assets/back.svg"
 
 class Details extends React.Component {
     constructor(props) {
@@ -33,7 +33,10 @@ class Details extends React.Component {
                 <Header />
 
                 <div className="row m-top-20">
-                    <div className="col-sm-12">
+                     <div className="col-sm-12">
+                      <img src ={Back} width="20" onClick={()=>this.props.history.push("/")}/>
+                     </div>
+                    <div className="col-sm-12 m-top-20">
 
                         <div className="col-sm-3 pad-0">
                             <div className="left-part">
