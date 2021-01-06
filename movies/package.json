@@ -20,7 +20,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.0.0-alpha",
     "compression": "^1.6.2",
     "dependencies": "0.0.1",
