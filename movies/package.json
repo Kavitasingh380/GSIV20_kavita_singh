@@ -24,7 +24,7 @@
     "bootstrap": "^4.0.0-alpha",
     "compression": "^1.6.2",
     "dependencies": "0.0.1",
-    "express": "^4.14.0",
+    "express": "^4.17.3",
     "immutability-helper": "^2.6.6",
     "object-assign": "^4.1.1",
     "phantomjs": "^2.1.7",
